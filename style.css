@@ -3,4 +3,26 @@
   padding: 0;
   box-sizing: border-box; }
 
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center; }
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.navbar {
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.header__image {
+  width: calc(100vw + 40px); }
+
 /*# sourceMappingURL=style.css.map */
