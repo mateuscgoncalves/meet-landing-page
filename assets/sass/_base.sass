@@ -16,3 +16,25 @@ $grey: rgb(135, 135, 157)
 
 //Typography
 $red-hat: 'Red Hat Display', sans-serif
+
+$normal-weight: 500
+$bold-weight: 900
+
+//Mixings
+=text-style($color, $size, $weight, $family)
+    color: $color
+    font-size: $size
+    font-weight: $weight
+    font-family: $family
+
+=button-style($background-color)
+    color: white
+    background-color: $background-color
+    border-radius: 29px
+    border: none
+    line-height: 26px
+    cursor: pointer
+    padding: 16px 40px
+    margin-left: 8px
+    margin-right: 8px
+    +text-style(white, 16px, $normal-weight, $red-hat)

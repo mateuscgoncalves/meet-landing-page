@@ -3,6 +3,9 @@
     flex-direction: column
     justify-content: center
     align-items: center
+    width: 100vw
+    overflow: hidden
+    padding: 0 24px
 
 .navbar
     height: 130px
@@ -13,3 +16,30 @@
 
 .header__image
     width: calc(100vw + 40px)
+    margin-bottom: 24px
+
+.main
+    text-align: center
+
+.main__title
+    +text-style($soft-black, 40px, $bold-weight, $red-hat)
+    line-height: 44px
+    text-align: center
+    margin: 24px 0
+
+.main__subtitle
+    +text-style($grey, 16px, $normal-weight, $red-hat)
+    list-height: 26px
+    text-align: center
+    margin-bottom: 16px
+
+.main__cta
+    +button-style($green)
+    margin-bottom: 16px
+    margin-top: 16px
+
+.main__cta--highlighted
+    margin-left: 4px
+    letter-spacing: 1px
+.main__info
+    +button-style($purple)
