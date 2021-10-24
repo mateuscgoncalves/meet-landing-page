@@ -38,3 +38,11 @@ $bold-weight: 900
     margin-left: 8px
     margin-right: 8px
     +text-style(white, 16px, $normal-weight, $red-hat)
+
+=tablet-screen
+    @media screen and (min-width: 768px)
+        @content
+
+=desktop-screen
+    @media screen and (min-width: 1440px)
+        @content

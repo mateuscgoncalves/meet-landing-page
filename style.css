@@ -29,6 +29,12 @@ body {
   width: calc(100vw + 40px);
   margin-bottom: 24px; }
 
+.header__image--left {
+  display: none; }
+
+.header__image--right {
+  display: none; }
+
 .main {
   text-align: center; }
 
@@ -69,7 +75,8 @@ body {
 
 .main__cta--highlighted {
   margin-left: 4px;
-  letter-spacing: 1px; }
+  letter-spacing: 1px;
+  color: #8fe3f9; }
 
 .main__info {
   color: white;
@@ -85,5 +92,50 @@ body {
   font-size: 16px;
   font-weight: 500;
   font-family: "Red Hat Display", sans-serif; }
+
+@media screen and (min-width: 768px) {
+  .header {
+    padding: 0 155px; }
+
+  .navbar {
+    height: 140px; }
+
+  .header__image {
+    width: calc(100vw + 52px);
+    margin-bottom: 24px; }
+
+  .main__title {
+    font-size: 48px;
+    line-height: 48px; } }
+@media screen and (min-width: 1440px) {
+  .header {
+    padding: 0 450px; }
+
+  .navbar {
+    height: 169px; }
+
+  .header__image {
+    display: none; }
+
+  .header__image--left {
+    display: block;
+    position: absolute;
+    top: 169px;
+    left: -32px; }
+
+  .header__image--right {
+    display: block;
+    position: absolute;
+    top: 169px;
+    right: -32px; }
+
+  .main__title {
+    font-size: 64px;
+    line-height: 64px;
+    margin: 0 48px 32px 48px; }
+
+  .main__subtitle {
+    font-size: 18px;
+    line-height: 26px; } }
 
 /*# sourceMappingURL=style.css.map */

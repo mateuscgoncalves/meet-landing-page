@@ -18,6 +18,12 @@
     width: calc(100vw + 40px)
     margin-bottom: 24px
 
+.header__image--left
+    display: none
+
+.header__image--right
+    display: none
+
 .main
     text-align: center
 
@@ -41,5 +47,53 @@
 .main__cta--highlighted
     margin-left: 4px
     letter-spacing: 1px
+    color: $cyan
+
 .main__info
     +button-style($purple)
+
++tablet-screen()
+    .header
+        padding: 0 155px
+
+    .navbar
+        height: 140px
+
+    .header__image
+        width: calc(100vw + 52px)
+        margin-bottom: 24px
+
+    .main__title
+        font-size: 48px
+        line-height: 48px
+
++desktop-screen()
+    .header
+        padding: 0 450px
+
+    .navbar
+        height: 169px
+
+    .header__image
+        display: none
+
+    .header__image--left
+        display: block
+        position: absolute
+        top: 169px
+        left: -32px
+
+    .header__image--right
+        display: block
+        position: absolute
+        top: 169px
+        right: -32px
+
+    .main__title
+        font-size: 64px
+        line-height: 64px
+        margin: 0 48px 32px 48px
+
+    .main__subtitle
+        font-size: 18px
+        line-height: 26px
