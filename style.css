@@ -16,7 +16,8 @@ body {
   align-items: center;
   width: 100vw;
   overflow: hidden;
-  padding: 0 24px; }
+  padding: 0 24px;
+  margin-bottom: 64px; }
 
 .navbar {
   height: 130px;
@@ -92,6 +93,29 @@ body {
   font-size: 16px;
   font-weight: 500;
   font-family: "Red Hat Display", sans-serif; }
+
+.index {
+  margin-top: 84px;
+  border: 1px solid rgba(135, 135, 157, 0.25);
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+  text-align: center;
+  line-height: 56px;
+  color: #87879d;
+  font-size: 16px;
+  font-weight: 900;
+  font-family: "Red Hat Display", sans-serif;
+  position: relative; }
+
+.index:before {
+  content: "";
+  position: absolute;
+  top: -84px;
+  left: calc(50% - 0.5px);
+  height: 84px;
+  width: 1px;
+  background-color: rgba(135, 135, 157, 0.25); }
 
 @media screen and (min-width: 768px) {
   .header {
