@@ -71,6 +71,7 @@
     position: relative
     margin-top: 84px
     text-align: center
+    background-color: white
 
 .index:before
     content: ''
@@ -108,6 +109,37 @@
 .features__description
     +text-style($grey, 16px, $normal-weight, $red-hat)
     line-height: 26px
+
+.cta
+    display: flex
+    flex-direction: column
+    justify-content: flex-start
+    align-items: center
+    text-align: center
+
+.cta__image
+    background-image: url("./assets/images/mobile/image-footer.jpg")
+    background-color: $green
+    background-blend-mode: multiply
+    background-size: cover
+    margin-top: -28px
+    padding: 92px 24px 72px 24px
+
+.cta__title
+    +text-style($soft-white, 32px, $bold-weight, $red-hat)
+    line-height: 36px
+    margin-bottom: 24px
+
+.cta__description
+    +text-style($soft-white, 18px, $normal-weight, $red-hat)
+    line-height: 26px
+    margin-bottom: 32px
+
+.cta__download
+    +button-style($purple)
+
+.cta__download--highlighted
+    color: $pink
 
 //TABLET MEDIA QUERY
 +tablet-screen()
