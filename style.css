@@ -250,7 +250,8 @@ body {
     margin-bottom: 40px; } }
 @media screen and (min-width: 1440px) {
   .header {
-    padding: 0 450px; }
+    padding: 0 450px;
+    margin-bottom: 110px; }
 
   .navbar {
     height: 169px;
@@ -268,7 +269,7 @@ body {
   .header__image--right {
     display: block;
     position: absolute;
-    top: 169px;
+    top: 224px;
     left: calc(50vw + 358px); }
 
   .main {
