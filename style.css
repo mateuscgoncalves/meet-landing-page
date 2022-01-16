@@ -8,7 +8,8 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  background-color: #f2f2f2; }
 
 .header {
   display: flex;
@@ -106,6 +107,7 @@ body {
 .index {
   border: 1px solid rgba(135, 135, 157, 0.25);
   border-radius: 50%;
+  background-color: #f2f2f2;
   width: 56px;
   height: 56px;
   line-height: 56px;
@@ -115,8 +117,7 @@ body {
   font-family: "Red Hat Display", sans-serif;
   position: relative;
   margin-top: 84px;
-  text-align: center;
-  background-color: white; }
+  text-align: center; }
 
 .index:before {
   content: "";
@@ -292,7 +293,25 @@ body {
     background-color: #b18bdd; }
 
   .features {
-    padding: 0 165px; }
+    padding: 0 165px;
+    margin-bottom: 72px; }
+
+  .features__title {
+    margin-bottom: 16px; }
+
+  .features__title {
+    max-width: 445px;
+    font-size: 40px;
+    line-height: 44px;
+    margin-bottom: 32px; }
+
+  .features__description {
+    font-size: 18px;
+    line-height: 26px;
+    max-width: 540px; }
+
+  .photo-gallery {
+    column-gap: 30px; }
 
   .cta__image {
     flex-direction: row;
