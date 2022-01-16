@@ -277,7 +277,8 @@ body {
   .main__title {
     font-size: 64px;
     line-height: 64px;
-    margin: 47px 0 34px 0; }
+    margin: 47px auto 34px auto;
+    max-width: 445px; }
 
   .main__subtitle {
     font-size: 18px;
