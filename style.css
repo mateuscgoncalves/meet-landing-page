@@ -73,6 +73,7 @@ body {
   font-size: 16px;
   font-weight: 500;
   font-family: "Red Hat Display", sans-serif;
+  font-weight: 900;
   margin-bottom: 16px;
   margin-top: 16px; }
 
@@ -235,7 +236,8 @@ body {
 
   .photo-gallery {
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    column-gap: 11px; }
+    column-gap: 11px;
+    margin: 67px auto 48px auto; }
 
   .features {
     padding: 0 40px; }
@@ -313,7 +315,8 @@ body {
     max-width: 540px; }
 
   .photo-gallery {
-    column-gap: 30px; }
+    column-gap: 30px;
+    margin: 64px auto 80px auto; }
 
   .cta__image {
     flex-direction: row;

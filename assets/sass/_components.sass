@@ -42,6 +42,7 @@
 
 .main__cta
     +button-style($green)
+    font-weight: $bold-weight
     margin-bottom: 16px
     margin-top: 16px
 
@@ -164,6 +165,7 @@
     .photo-gallery
         grid-template-columns: 1fr 1fr 1fr 1fr
         column-gap: 11px
+        margin: 67px auto 48px auto
 
     .features
         padding: 0 40px
@@ -176,7 +178,7 @@
     .cta__description
         margin-bottom: 40px
 
-//TABLET MEDIA QUERY
+//DESKTOP MEDIA QUERY
 +desktop-screen()
     .header
         padding: 0 450px
@@ -242,6 +244,7 @@
 
     .photo-gallery
         column-gap: 30px
+        margin: 64px auto 80px auto
 
     .cta__image
         flex-direction: row
