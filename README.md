@@ -45,5 +45,5 @@ Users should be able to:
 ## Author
 
 - Frontend Mentor - [@mateuscgoncalves](https://www.frontendmentor.io/profile/mateuscgoncalves)
-- Twitter - [Mateus Goncalves](https://www.linkedin.com/in/mateus-gonçalves-577758103/)
+- Linkedin - [Mateus Goncalves](https://www.linkedin.com/in/mateus-gonçalves-577758103/)
   
