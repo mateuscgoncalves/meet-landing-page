@@ -286,8 +286,10 @@ body {
     font-size: 18px;
     line-height: 26px; }
 
-  .main__cta:hover {
-    background-color: #71c0d4; }
+  .main__cta {
+    margin-bottom: 7px; }
+    .main__cta:hover {
+      background-color: #71c0d4; }
 
   .main__info:hover {
     background-color: #b18bdd; }
