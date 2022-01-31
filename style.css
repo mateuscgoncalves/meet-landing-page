@@ -325,7 +325,8 @@ body {
 
   .photo-gallery {
     column-gap: 30px;
-    margin: 64px auto 80px auto; }
+    margin: 64px auto 80px auto;
+    max-width: 1500px; }
 
   .cta__image {
     flex-direction: row;
